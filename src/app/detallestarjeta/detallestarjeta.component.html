@@ -1,0 +1,16 @@
+<div class="box mt-4">
+  <div class="card" style="width: 18rem">
+    <img src="{{ personajes.image }}" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{ personajes.name }}</h5>
+      <p class="card-text">
+        <b>Status: </b>{{ personajes.status }}<br />
+        <b>Species: </b>{{ personajes.species }}<br />
+        <b>Gender: </b>{{ personajes.gender }}<br />
+        <b>Origin: </b>{{ personajes.origin.name }}<br />
+        <b>Location: </b>{{ personajes.location.name }}<br />
+        <b>Id Code: </b>{{ personajes.id }}
+      </p>
+    </div>
+  </div>
+</div>
